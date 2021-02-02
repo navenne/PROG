@@ -1,3 +1,19 @@
+/** 
+* --------------------------------
+* Clase Tiempo
+* 
+* @author Laura
+* Fecha: 29/01/2021
+* --------------------------------
+* Los objetos de la clase Tiempo son intervalos de tiempo y se crean de la forma:
+* t = Tiempo(1, 20, 30)
+* donde los parámetros que se le pasan al constructor son las horas, los minutos y los segundos respectivamente. 
+* Crea métodos para:
+* Sumar y restar otro objeto de la clase Tiempo (el resultado es otro objeto).
+* Sumar y restar segundos, minutos y/o horas (se cambia el objeto actual).
+* Devolver una cadena con el tiempo almacenado, de forma que si lo que hay es (10 35 5) la cadena sea 10h 35m 5s.
+*/
+
 package tanda1POO;
 
 public class Tiempo {
